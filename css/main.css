@@ -1,0 +1,87 @@
+/*this is how you make a comment-----*/
+/*body{
+  margin:0;
+}
+
+
+
+/*margin can also be written with 0(top) 0(right) 0(bottom) 0(left)*/
+
+
+body {
+border: 30px solid red;
+}
+
+
+ul{border:2px dashed #000;}
+
+
+/*
+body{
+  padding: 2em;
+  border: 1px dashed
+  border-top: 1em solid #f00;
+  border-left: 1em solid red;
+  border-right:1em solid red
+  margin: 2em;
+}
+*/
+main{
+  background-color:#FFFACD;
+  padding: 1em;
+/*  border:1px dashed #000;*/
+  margin:2em;
+
+/*resets*/
+
+html{
+  font:100%/1.15 sans-serif
+}
+h1,
+h2,
+h3,{
+  margin-top: 5;
+  margin-bottom: 0;
+}
+dl,
+ol,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+dd{margin-left: 0;}
+
+ul{margin-left:0;}
+ul{padding-left: 1.15em;}
+
+
+/* responsive images*/
+img{
+width:auto;
+max-width: 100%;
+height:auto;
+}
+
+/*justin's styles*/
+body{
+  font-family:Georgia, "Times New Roman"
+}
+h1,
+h2,
+h3{font-family: trebuchet;
+text-transform: uppercase;
+}
+body{max-width: 48e;
+  padding:1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption{
+  text-align: center;
+}
+/*break point wide screen*/
+@media (min-width:48em){
+
+  fontsize
+}
